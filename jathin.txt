@@ -7,3 +7,8 @@ It checks the branches and updates the files in the working directory to match t
 To understand the differences between fetch and pull, let's know the similarities between both of these commands. Both commands are used to download the data from a remote repository. But both of these commands work differently. Like when you do a git pull, it gets all the changes from the remote or central repository and makes it available to your corresponding branch in your local repository. When you do a git fetch, it fetches all the changes from the remote repository and stores it in a separate branch in your local repository. You can reflect those changes in your corresponding branches by merging.
 
 o understand the differences between fetch and pull, let's know the similarities between both of these commands. Both commands are used to download the data from a remote repository. But both of these commands work differently. Like when you do a git pull, it gets all the changes from the remote or central repository and makes it available to your corresponding branch in your local repository. When you do a git fetch, it fetches all the changes from the remote repository and stores it in a separate branch in your local repository. You can reflect those changes in your corresponding branche
+n Git, the "git fetch" command is used to retrieve changes from a remote repository without actually merging them into your local repository.
+
+When you run "git fetch", Git will connect to the remote repository and download any changes that have been made since your last interaction with the remote. These changes are stored in your local repository's remote tracking branches, but they are not automatically merged into your local branch.
+
+The main benefits of using "git fetch" are:
